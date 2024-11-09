@@ -1,0 +1,25 @@
+.psychedelic-text {
+    animation: color-change 2s infinite alternate;
+  }
+  
+  @keyframes color-change {
+    0% { color: #ff00ff; } 
+    20% { color: #ff6600; }
+    40% { color: #00ff00; } 
+    60% { color: #00ffff; } 
+    80% { color: #0000ff; }
+    100% { color: #ff0000; } 
+  }
+
+.psychedelic-text2 {
+    animation: color-change2 2s infinite alternate;
+  }
+  
+  @keyframes color-change2 {
+    0% { color: #0077ff; } 
+    20% { color: #00ffd5; }
+    40% { color: #ff0000; } 
+    60% { color: #fbff00; } 
+    80% { color: #aeaec3; }
+    100% { color: #200a0a; } 
+  }
